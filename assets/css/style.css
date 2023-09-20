@@ -1,0 +1,25 @@
+:root {
+    --red-color: rgb(250, 1, 1);
+}
+
+.bg-dark {
+    background-image: linear-gradient(to right, var( --red-color), rgb(250, 1, 1))
+}
+
+.input-group {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.input-group-append {
+    display: block;
+    padding-top: 20px;
+}
+
+#search-button {
+    background-color: var( --red-color);
+}
+
+hr {
+    background-color: rgb(250, 1, 1);
+}
